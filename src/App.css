@@ -20,3 +20,36 @@
 .App-link {
   color: #09d3ac;
 }
+/*.fullBox{
+  display: inline;*/
+  /*}*/
+  .lefBox{
+    float: left;
+  }
+  .tableBox{
+    float:left;
+    padding: 0px;
+  }
+  .padding10{
+    padding: 10px;
+  }
+  .pageheader{
+    margin-top: 50px;
+    margin-bottom:50px;
+  }
+  .searchButton{
+    margin-right: 50px;
+  }
+  .searchBox{
+    margin-left: 15px;
+  }
+  .sortSelected::after{
+    line-height: 1.5;
+    letter-spacing: 0.7px;
+    color: #666;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 7.5px 15px;
+    border-top: solid 1px #f3f3f3;
+
+  }
